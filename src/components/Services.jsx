@@ -35,7 +35,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="section" id="services">
+    <section className="section" id="services">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row ">
           {/* text & image */}
@@ -53,12 +53,13 @@ const Services = () => {
             </h3>
             <button className="btn btn-sm">See my work</button>
           </motion.div>
+
           {/* services */}
           <motion.div
             variants={fadeIn("left", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
             {/* service list */}
@@ -95,7 +96,7 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

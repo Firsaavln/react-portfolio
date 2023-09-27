@@ -19,8 +19,7 @@ function App() {
         <Work />
         <Contact />
         <Nav />
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <div className="h-[4000px]"></div>
+        {/* <div className="h-[4000px]"></div> */}
       </div>
     </>
   );
